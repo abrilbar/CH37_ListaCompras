@@ -37,6 +37,7 @@ let datos = new Array();
         localStorage.stItem("contadorProductos", contadorProductos);
         localStorage.stItem("totalEnProductos", totalEnProductos);
         localStorage.stItem("costoTotal", costoTotal);
+        datos = new Array ();
         cuerpoTabla.innerHTML = "";
         txtNombre.focus();
 });//btnClear
